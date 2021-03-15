@@ -1,7 +1,6 @@
     const categoriEl = document.querySelectorAll(".item");
       console.log(`В списке ${categoriEl.length} категории.`);
 
-      // const 
       for(const element of categoriEl){
         const h2El = element.firstElementChild.textContent;
         console.log(h2El);

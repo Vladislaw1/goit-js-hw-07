@@ -7,17 +7,6 @@ onInput = () => {
 
 inputNameEl.addEventListener('input', onInput);
 
-// input.onInput = function{
-//     input.value === ''
-// }
-// nameOutputEl.addEventListener('input', onOutput);
-
-
-// function onOutput(event) {
-//     console.log(event.currentTarget.value);
-//     nameOutputEl.textContent = event.currentTarget.value;
-// }
-
 // function onInput(event) {
 //     if (event.currentTarget.value !== '') {
 //         nameOutputEl.textContent = event.currentTarget.value;
